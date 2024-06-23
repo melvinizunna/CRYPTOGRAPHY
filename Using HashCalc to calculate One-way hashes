@@ -1,0 +1,8 @@
+Task 1: Calculate One-way Hashes using HashCalc
+Understanding Hash Functions
+
+Hash functions generate a unique fixed-size bit string, known as a message digest, from any block of information. These functions condense the data in a file, regardless of its size, into a fixed-length number, usually between 128 and 256 bits. If any bit in the input changes, approximately half of the output bits will change as well. It is nearly impossible to find two different files with the same message digest due to the computational difficulty.
+
+HashCalc is a tool that computes various hashes, checksums, and HMACs for files, text, and hex strings. It supports the Secure Hash Algorithm family, including MD2, MD4, MD5, SHA1, SHA2 (SHA256, SHA384, SHA512), RIPEMD160, PANAMA, TIGER, CRC32, ADLER32, and the hashes used in peer-to-peer applications like eDonkey and eMule.
+
+In this project, we will use HashCalc to calculate one-way hashes.
